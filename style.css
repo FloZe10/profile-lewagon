@@ -1,0 +1,103 @@
+body{
+	background-image: url("https://a.cdn-hotels.com/gdcs/production101/d154/ee893f00-c31d-11e8-9739-0242ac110006.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+	text-align: center;
+	color: darskyblue;
+	background-color: #fce5cd;
+}
+
+h1{
+	background: #D7C0AE;
+	padding: 5px;
+	width: 500px;
+	margin: 5% auto;
+
+}
+
+.list-center{
+	width: 10px;
+	margin-left: 275px;
+}
+
+H2{
+	background-color: #bdb8b3;
+	width: 200px;
+	margin: 5% auto;
+	padding: 5px;
+
+}
+
+div{
+	width: 700px;
+	text-align: center;
+	margin: 50px auto;
+	padding: 30px;
+	background: #EEE3CB;
+
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: skyblue;
+}
+
+#profile{ 
+	width: 250px;
+	border-radius: 30%;
+ }
+
+
+.container{
+	margin: 40px auto;
+	width: 800px;
+	box-shadow: 5px 5px 6px grey;
+	padding: 25px;
+	border-radius: 5%;
+}
+
+li{
+text-align: center;
+}
+
+.list-inline {
+		list-style: none; 
+		padding-left: 0px;
+		}
+
+.list-inline li {
+		display: inline;
+		padding: 10px;
+	}
+
+.list-inline i {
+		font-size: 50px;
+	}
+
+@media (max-width: 1500px) {
+	.container {
+		width: 1000px;
+	}
+	.card-white {
+		width: 900px;
+	}
+	#profil {
+		width: 400px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+	.card-white {
+		width: 300px
+	}
+	#profil {
+		width: 150px;
+	}
+}
+
